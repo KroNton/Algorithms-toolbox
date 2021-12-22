@@ -22,7 +22,7 @@ long long MaxPairwiseProduct_fast(const std::vector<int>& numbers) {
 
      }
 
- max_product = ((long long)(numbers[max_index1] * numbers[max_index2]));
+ max_product = ((long long)(numbers[max_index1])) * numbers[max_index2];
     return max_product;
 }
 
